@@ -1,13 +1,15 @@
 from __future__ import annotations
 from typing import List, Union, Tuple
 from pathlib import Path
+from datetime import date
+import logging
 try:
-    from typing import Literal  # Python 3.8+ specific
+    from typing import Literal
 except ImportError:
-    from typing_extensions import Literal  # fallback for Python 3.7
+    from typing_extensions import Literal
 
 from markitdown import MarkItDown
-from openparse.schemas import Node, FileMetadata
+from openparse.schemas import Node, FileMetadata, TextElement, Bbox, NodeVariant
 
 class DocumentParser:
     """Parser using Microsoft's MarkItDown for multiple file formats."""
