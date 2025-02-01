@@ -2,11 +2,8 @@ from __future__ import annotations
 from typing import List, Union, Tuple
 from pathlib import Path
 from datetime import date
+from typing import Literal
 import logging
-try:
-    from typing import Literal
-except ImportError:
-    from typing_extensions import Literal
 
 from markitdown import MarkItDown
 from openparse.schemas import Node, FileMetadata, TextElement, Bbox, NodeVariant

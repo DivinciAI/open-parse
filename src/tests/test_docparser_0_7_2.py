@@ -22,13 +22,13 @@ Requirements:
 import pytest
 from pathlib import Path
 from unittest.mock import patch, MagicMock
-from datetime import datetime, date
+from datetime import date
 import zipfile
 import io
 
 from openparse import DocumentParser, ParsedDocument, Node
 from openparse.processing import BasicIngestionPipeline, NoOpIngestionPipeline
-from openparse.schemas import TextElement, Bbox, NodeVariant, FileMetadata
+from openparse.schemas import TextElement, Bbox, NodeVariant
 
 @pytest.fixture
 def sample_pdf():

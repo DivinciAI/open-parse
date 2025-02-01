@@ -6,10 +6,10 @@ build-backend = "setuptools.build_meta"
 name = "openparse"
 description = "Streamlines the process of preparing documents for LLM's."
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 license = {text = "MIT"}
-version = "0.7.1"
-authors = [{name = "Sergey Filimonov", email = "hello@sergey.fyi"}]
+version = "0.7.3"
+authors = [{name = "Sergey Filimonov", email = "hello@sergey.fyi"}, {name = "Michael Mooring", email = "mike@divinci.ai"}]
 dependencies = [
     "PyMuPDF>=1.23.2",
     "pillow >= 8.3",
