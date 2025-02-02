@@ -10,6 +10,8 @@ Divinci™ fork of Open-Parse 🤖🖤
 
 >Not all functionality is supported in this fork. Supported: 🦙 Ollama and 🟠☁️ Cloudflare, alongside the exisiting 🤖 OpenAI embeddings.
 
+>MarkItDown is a parser option that now supports several file formats: .pdf, .docx, .pptx, .xlsx, .html, .txt, .json, .xml, .zip
+
 _ _ _
 
 **Easily chunk complex documents the same way a human would.**  
